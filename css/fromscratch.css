@@ -1,0 +1,101 @@
+body{
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva,Tahoma,sans-serif;
+}
+
+
+.italic {font-style: italic;}
+.bold {font-weight: bold;}
+.underline {text-decoration: underline;}
+.center {text-align: center;}
+
+
+a {
+    color: #9f2d2d;
+    text-decoration: none;
+}
+a:hover {
+    color: #0f3d81;
+}
+a:visited {color: darkred;}
+
+
+
+
+.common{
+    border: solid 5px grey;
+    background-color: #c0d9e8;
+    padding: 10px;
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right:5px;
+    height: 100px;
+    padding: 10px;
+    border-bottom: 10px black double;
+    font-size: 20px;
+}
+.checklist{
+    padding-left: 40px;
+}
+.images-body {
+    left: 30px;
+    top: 600px;
+    width: 650px;
+}
+.video-body{
+    right: 30px;
+    top: 600px;
+    width: 650px;
+}
+.fonts-body{
+    left: 30px;
+    top: 1325px;
+    width: 650px;
+}
+.tableau-body{
+    right: 30px;
+    left: 30px;
+    top: 1545px;
+    height: 1150px;
+}
+.footer{
+    left: 30px;
+    right: 30px;
+    height: 25px;
+    bottom: 1px;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #68cae1;
+    position: fixed;
+}
+
+.text1 {
+    font-size: larger;
+    text-decoration: underline;
+    font-family: Chalkboard, Helvetica;
+}
+.text2 {
+    font-size: smaller;
+    font-style: italic;
+}
+.text3 {
+    font-weight: bold;
+    color: deeppink;
+    font-style: oblique;
+}
+.text4 {
+    font-family: "Kohinoor Bangla";
+    font-size: x-large;
+}
+.specialborder {
+    border: dot-dot-dash 5px purple;
+    background-color: #ced77f;
+    padding: 15px;
+    position: absolute
+}
